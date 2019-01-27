@@ -1,0 +1,45 @@
+html {
+	font-size: 25px;
+	background: url(https://wavetoysmusic.com/wp-content/uploads/pexels-photo-241687-1-800x300.jpeg) bottom center;
+	background-size: cover;
+
+}
+
+kbd {
+	display: block;
+	font-size: 2rem;
+}
+
+
+.keys {
+	min-height: 100vh;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	flex: 1;
+	text-align: center;
+}
+
+.key {
+	width: 80px;
+	border: 5px solid white;
+	border-radius: 5px;
+	margin: 5px;
+	padding: 5px;
+	font-size: 1.5rem;
+	transition: all 0.1s;
+	color: 	#FFEBCD;
+}
+
+.sound {
+	font-size: 15px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #FFFAF0;
+}
+
+.playing {
+	transform: scale(1.2);
+	border-color: #FFD700;
+	box-shadow: 0 0 15px #FFD700;
+}
